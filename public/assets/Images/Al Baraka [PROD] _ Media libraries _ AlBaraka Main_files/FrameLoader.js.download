@@ -1,0 +1,1 @@
+cmsdefine(["CMS.Builder/Constants","CMS/EventHub"],function(n,t){var i=function(t){var i="",r;try{r=new URL(t);i=r.host}catch(u){i=location.host}return n.MVC_FRAME_AUTHENTICATED_EVENT_NAME_PREFIX+i},r=function(n,r){var f=i(r),e=function(){u(n,r);t.unsubscribe(f,e)};t.subscribe(f,e)},u=function(n,t){n.src=t};return{getMvcFrameAuthenticatedEventName:i,loadFrame:r}})

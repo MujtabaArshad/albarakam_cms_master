@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<!-- saved from url=(0151)https://admin.albaraka.com.sd/CMSModules/AdminControls/Pages/UIPage.aspx?elementguid=6a9b9461-6078-4014-b67e-3f9358bf6ea9&displaytitle=False&objectid=2 -->
+<html style="overflow: hidden; height: 100%; border: none; padding: 0px; margin: 0px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	Modal UI Page
+</title>
+    <style type="text/css">
+        html, body
+        {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+<script src="./jquery-core(1).js.download" type="text/javascript"></script><script src="./jquery-cmscompatibility.js.download" type="text/javascript"></script><script src="./CMSConfigRequire.js.download" type="text/javascript"></script><script src="./require.js.download" type="text/javascript"></script><script src="./config.js.download" type="text/javascript"></script><link href="./bootstrap.css" type="text/css" rel="stylesheet"><link href="./CMSDesk.css" type="text/css" rel="stylesheet"><link href="./DesignMode.css" type="text/css" rel="stylesheet"><meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-script-type" content="text/javascript">
+
+<link href="https://admin.albaraka.com.sd/App_Themes/Default/Images/favicon.ico" type="image/x-icon" rel="shortcut icon">
+
+<link href="https://admin.albaraka.com.sd/App_Themes/Default/Images/favicon.ico" type="image/x-icon" rel="icon">
+
+<link href="./jquery-jscrollpane.css" type="text/css" rel="stylesheet">
+<link href="./UILayout.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" charset="utf-8" async="" data-cmsrequirecontext="_" data-cmsrequiremodule="CMS/EventHub" src="./EventHub.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-cmsrequirecontext="_" data-cmsrequiremodule="CMS/Application" src="./Application.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-cmsrequirecontext="_" data-cmsrequiremodule="CMS/HeaderShadow" src="./HeaderShadow.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-cmsrequirecontext="_" data-cmsrequiremodule="CMS/Loader" src="./Loader.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-cmsrequirecontext="_" data-cmsrequiremodule="CMS/VerticalTabs" src="./VerticalTabs.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-cmsrequirecontext="_" data-cmsrequiremodule="CMS/UITabs" src="./UITabs.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-cmsrequirecontext="_" data-cmsrequiremodule="Underscore" src="./underscore.min.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-cmsrequirecontext="_" data-cmsrequiremodule="CMS/NavigationBlocker" src="./NavigationBlocker.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-cmsrequirecontext="_" data-cmsrequiremodule="CMS/UrlHelper" src="./UrlHelper.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-cmsrequirecontext="_" data-cmsrequiremodule="jQuery" src="./jquery-core.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-cmsrequirecontext="_" data-cmsrequiremodule="jQueryJScrollPane" src="./jquery-jscrollpane.js.download"></script></head>
+<body id="m_bodyElem" class="Chrome cms-bootstrap ui-layout-container" style="overflow: hidden; width: auto; height: auto; margin: 0px; position: absolute; inset: 0px;">
+    <form method="post" action="https://admin.albaraka.com.sd/CMSModules/AdminControls/Pages/UIPage.aspx?elementguid=6a9b9461-6078-4014-b67e-3f9358bf6ea9&amp;displaytitle=False&amp;objectid=2" id="aspnetForm" onsubmit="if (window.Loader) { window.Loader.submitForm(1000, false); }; return true;">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__CMSCsrfToken" id="__CMSCsrfToken" value="BbzGpZlUL6LpuFwB8rLuH9po6vO+V1SODNu4tKLpP1CjpgxNP5hNo2PXyhhiPwHfrtKHEBO2HZBPNYd+8UPCaY8FpXoXmx7W96iQQvGzOyY=">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="PKYSTCTuZ0nIGnZKj6DchkqaxRalVgpRKgY9uY/+DrlnxaPHwtpSp/bJ1EJ7kJ+nHaQFOWtQiICCZ21PuCVwtpquOV79JF1+hsxK53B/iPkyWkgYgn50JeI8pnOGc51/OQBQDIcT6fd0bMGgNtmVSJPSKHVIzO/bMjM325RSS7gGmt0ojSrKOrkyjbVkpPA9bIS1wfJie3o9NbrUWQ3Ruv7263JhhXTLk8pIaRYve8Weqv7ordfyWs/GPPtFG/kcYtu+mnzgSgjuTO9Cj+nBrZYrpaFpLJuICztnHmoMJW7yZKk/9QntL44FkCT6nvPPzPnzUcRkcP5bG+EM3qMtFzQPz8hLakeWM5iuBi2BcGCyZ0QxueF5X02ymCLnkgSkEkp91doyN3q/ey58zyYgcpzhQWJVrE8O6mgoyMUXpGjYCLdwzNqfvs9dlbw1Hpqa+A0iaYfkdCsuYV9925RRwkm38YR4er4pjEsFRNk6OJiSD3pksXEVpsOwUotsJTtHRE9RgnVZQGtbuisCuWUasEo8oLcwBPGG4UNcoY+qKSymjkNSLqwG4dWH0Lyjaltfak18PIOMsxSU27bSorZOCGzgX2zs/E/z26HgUw8C8M72vE/tQMg4VzWPF79AtR6+Hfh51jnT1GlJkyQC9/lGDbGpkW423P3RPIgqTNUHGUyAd7rjqRxdLAELbXsu+xaDOvf9P35CYc6T18Kh3ZRXi4aJOaP7lKN/vi4gaXDKBRsiIrD8elZM8oAb2BW8w3eaXv65pFF2BzjKSGzMAA0ppbDz8aEQAtHvt4liG/6LHQ/TeYH1iGNA04Hhkufc4nviwPKsfA23QbIoROd+DmQq/Zt0Rhs0SO9qQhNS+MDK2JJHZHstikxDrHzrZRJGQ/sd22WnXLDN4QjB0DxJmb6rTUSijnIL5gwR61NdHqqLLvy0wuktRBcprRRjkhfYoOENPCFagqrvPsTRExxwHKqIjb3g8oZxOOAPaOTR8wOLAxvzeNuxedQ7s6O5rnnsbAGTQSpKFhVVIdDf7Tgk6D3U1OD8KWdSp9TVlJRGVZk6PQ9tZyCxuJ+9Az+aQUBKBVSAByCetUhFqjhiY/yKwP/B4MweDkSDU5uzvmRsyaNKTNjUMPv+FDJjche/7SLDAcOLjyQ7bvbchDHsX4zN852Rw+wXq0jJWVAnTb7exIGd3CU/jt0YflBF9K/BrkcoFVHx7iglQExwA8Szo2fM1k1+SG7X1NqdKrftkesDHL+BBOikGpNt8Kq8H8cYRjrtIuUm8ljf9sY+ufVS81JOVxHavRY5irXTEvfOoqe+knqbD9dtmSQT+8rh6vSuWxaNRn1595Fz1jKzZELpTXiMC6zl4qhr8CxOrNJ9buRSGLRJX+YWPeZkMvJXZ5JlwGrYr0lJAIPWMwE8lqPr+3dOn0saKyndGiQaaBPsbPf2RLv5N4Ut/quJ/zXdyS1AQUYEzrD1x6X2tGaxgLbhyG0f0nQPJUsPwt/8BbTaxyrNaZgOTVMnYfPdj/j3K3z4bjj1x7aYrY51Uy/+HgO0B/2Odh02t3CEAWeboJail1TWZnaBK2IkwUo3LigO1J+V2M9v8lIfqL2Vv/+ptQtsZlj9JJPyZIWS96euDP8aM+wxxK5WgqvZUVSlYiySwbgiwSrLK69WYCOAMtZ+7v3UBQN76aVLSL9P9cREFVfjHnoYN5ZgoYuy4a9A56eyhrTczl1z6PK8NqzyF3+y4YKVygGbCayVdMmJ/+3rTckEx6IiNWAuw4VRpSIDS4d1zN5iCxS7M2Mr8XolBaJItsfqYz+k0VnFcG9bjXYrq7jw57w73I//BSABeZ/6Laqm3aRWnst5N8Qs">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./WebResource.axd" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+	//<![CDATA[
+
+function CloseDialog(refreshPage) {
+
+    // Check that the document content has not been changed without saving. Stop closing the dialog when user decides to save the content.
+    if (window.CheckChanges && !CheckChanges()) {
+        return false;
+    }
+
+    if (typeof(refreshPage) === "undefined") {
+        refreshPage = true;
+    }
+
+    try {
+        // IE9 fix - wopener doesn't have to be available
+	    if(refreshPage && window.wopener && window.wopener.RefreshWOpener) {
+		    wopener.RefreshWOpener(window);
+	    }
+    }
+    catch(err) {}
+	var canClose = true;
+	if (window.onCloseDialog) {
+		canClose = window.onCloseDialog();
+	}
+	if (canClose) {
+		if(top.closeDialog && (top != window)) {
+			setTimeout(function(){
+                if(top && top.closeDialog && (top != window)){ 
+                    top.closeDialog(window)
+                }
+            }, 1);
+		} 
+		else {
+			top.close(); 
+		}
+	}
+	return false; 
+}
+//]]>
+</script>
+<script type="text/javascript">
+	//<![CDATA[
+function GetTop(){ if(top.getTop) { return top.getTop(window); } else { return top; } }
+//]]>
+</script>
+<script src="./UIPage.js.download" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+function refreshBreadcrumbs(newName) {
+    $cmsj('.TitleBreadCrumbLast').html(newName);
+    cmsrequire(['CMS/Application', 'CMS/EventHub'], function (application, hub) {
+        var breadcrumbs = application.getData('breadcrumbs');
+        if (breadcrumbs) {
+            // Encode given name
+            breadcrumbs.data[breadcrumbs.data.length - 1].text = $cmsj('<div/>').text(newName).html();
+            hub.publish('PageLoaded');
+        }
+    });
+};
+
+//]]>
+</script>
+<script src="./bootstrap.min.js.download" type="text/javascript"></script>
+<script src="./bootstrap.custom.js.download" type="text/javascript"></script>
+<script src="./jquery-ui.js.download" type="text/javascript"></script>
+<script src="./jquery-layout.js.download" type="text/javascript"></script>
+<script src="./jquery-layout-callbacks.js.download" type="text/javascript"></script>
+<script src="./ScriptResource.axd" type="text/javascript"></script>
+<script src="./ScriptResource(1).axd" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "isApplication": false,
+  "isDialog": false,
+  "language": "en",
+  "breadcrumbs": {
+    "reframe": true,
+    "data": [
+      {
+        "index": 0,
+        "target": null,
+        "text": "group_general.medialibrary.backtolist",
+        "tooltip": null,
+        "cssClass": null,
+        "onClientClick": null,
+        "redirectUrl": "/CMSModules/MediaLibrary/Tools/Library_List.aspx"
+      },
+      {
+        "index": 1,
+        "target": null,
+        "text": "AlBaraka Main",
+        "tooltip": null,
+        "cssClass": null,
+        "onClientClick": null,
+        "redirectUrl": "/CMSModules/AdminControls/Pages/UIPage.aspx?elementguid=6a9b9461-6078-4014-b67e-3f9358bf6ea9\u0026displaytitle=False\u0026objectid=2"
+      }
+    ]
+  },
+  "breadcrumbsSuffix": "Media library",
+  "isDebuggingEnabled": true,
+  "isVerticalTabs": true,
+  "isRTL": "false",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "breadcrumbsPin": {
+    "applicationGuid": "436564ee-89e9-4719-939a-0d7b57ece744",
+    "elementGuid": "6a9b9461-6078-4014-b67e-3f9358bf6ea9",
+    "objectName": "AlBaraka",
+    "objectType": "media.library",
+    "objectSiteName": "AlBaraka",
+    "isPinned": false
+  },
+  "applicationName": "Media libraries",
+  "contexthelp": {
+    "contextHelp": {
+      "application": {
+        "description": {
+          "name": "About Media libraries",
+          "url": "https://devnet.kentico.com/CMSPages/DocLinkMapper.ashx?version=13.0\u0026amp;link=media_lib_files"
+        },
+        "helpTopics": [
+          {
+            "name": "Create media libraries",
+            "url": "https://devnet.kentico.com/CMSPages/DocLinkMapper.ashx?version=13.0\u0026amp;link=media_lib_creating"
+          },
+          {
+            "name": "Insert files into media libraries",
+            "url": "https://devnet.kentico.com/CMSPages/DocLinkMapper.ashx?version=13.0\u0026amp;link=media_lib_inserting_files"
+          },
+          {
+            "name": "Allow users to insert media links in page fields",
+            "url": "https://devnet.kentico.com/CMSPages/DocLinkMapper.ashx?version=13.0\u0026amp;link=media_lib_links"
+          },
+          {
+            "name": "Display media library content",
+            "url": "https://devnet.kentico.com/CMSPages/DocLinkMapper.ashx?version=13.0\u0026amp;link=media_libraries_mvc"
+          }
+        ]
+      },
+      "helpTopics": []
+    },
+    "suppressContextHelp": false
+  },
+  "applicationUrl": "/"
+};
+
+//]]>
+</script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="06CBFE9E">
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('m$manScript', 'aspnetForm', ['tm$c$plc$lt$ctl00$VerticalTabs$l$t$pnlUpdate','','tm$c$ctxM','','tm$pM$pMP',''], [], [], 90, 'm');
+//]]>
+</script>
+
+    
+    <div id="m_pnlBody" class="PageBody">
+	
+        
+        <div id="m_pM_pMP">
+
+	</div>
+        
+    <div id="m_c_m">
+
+	</div><div id="m_c_ctxM">
+
+	</div>
+    
+    <span id="m_c_plc_lt_ctl00_VerticalTabs_l" class="nav-tabs-vertical-layout"><div id="m_c_plc_lt_ctl00_VerticalTabs_l_t" class="ui-layout-pane ui-layout-pane-west nav-tabs-vertical-hidden nav-tabs-vertical-hidden-hover" style="position: absolute; margin: 0px; inset: 0px auto 0px 0px; height: 644px; z-index: 0; width: 32px; display: block; visibility: visible;">
+                <div id="tabOverlayer" class="overlayer overlayer-tabs" style="margin-left: 0px; display: none;">
+                </div>
+                <div class="nav-tabs-container-vertical-background nav-tabs-no-padding">
+                    <div class="nav-tabs-container-vertical-hidden" style="">
+                        <i aria-hidden="true" class="icon-ellipsis nav-tabs-container-vertical-hidden-icon"></i>
+                        <span class="sr-only">Show tabs</span>
+                    </div>
+                    
+                    <div class="nav-tabs-back" style="display: block;">
+                        <button id="lnkBack" title="Back" class="btn btn-icon">
+                            <i aria-hidden="true" class="icon-arrow-crooked-left"></i>
+                            <span class="sr-only">Back</span>
+                        </button>
+                    </div>
+                    <div id="m_c_plc_lt_ctl00_VerticalTabs_l_t_pnlUpdate">
+		
+                            <div class="nav-tabs-container-vertical" id="m_c_plc_lt_ctl00_VerticalTabs_l_t_tabsElem" style="position: absolute; inset: 48px 0px 0px; outline: none; overflow: hidden; padding: 0px; width: auto;"><div class="scroll-shadow bottom" style="display:none;"></div><div class="scroll-shadow" style="display:none;"></div>
+<div class="jspContainer" style="width: 208px; height: 596px;"><div class="jspPane" style="padding: 0px 0px 16px; top: 0px; width: 208px;"><ul class="nav nav-tabs"><li id="TabItem_0" class=" active" data-href="/CMSModules/MediaLibrary/Tools/Library_Edit_Files.aspx?objectid=2" onclick="SelTab(&#39;0&#39;, &#39;c&#39;, this.getAttribute(&#39;data-href&#39;), &#39;Files&#39;); UIT_Selected(&#39;Files&#39;);; return false;"><a id="TabLink_0" class="LinkSelected" href="https://admin.albaraka.com.sd/CMSModules/MediaLibrary/Tools/Library_Edit_Files.aspx?objectid=2" target="c"><span class="tab-title">Files</span></a></li>
+<li id="TabItem_1" class="" data-href="/CMSModules/MediaLibrary/Tools/Library_Edit_General.aspx?objectid=2" onclick="SelTab(&#39;1&#39;, &#39;c&#39;, this.getAttribute(&#39;data-href&#39;), &#39;General&#39;); UIT_Selected(&#39;General&#39;);; return false;"><a id="TabLink_1" class="Link" href="https://admin.albaraka.com.sd/CMSModules/MediaLibrary/Tools/Library_Edit_General.aspx?objectid=2" target="c"><span class="tab-title">General</span></a></li>
+<li id="TabItem_2" class="" data-href="/CMSModules/MediaLibrary/Tools/Library_Edit_Security.aspx?objectid=2" onclick="SelTab(&#39;2&#39;, &#39;c&#39;, this.getAttribute(&#39;data-href&#39;), &#39;Security&#39;); UIT_Selected(&#39;Security&#39;);; return false;"><a id="TabLink_2" class="Link" href="https://admin.albaraka.com.sd/CMSModules/MediaLibrary/Tools/Library_Edit_Security.aspx?objectid=2" target="c"><span class="tab-title">Security</span></a></li>
+</ul></div></div></div>
+
+                        
+	</div>
+                </div>
+            </div><iframe id="m_c_plc_lt_ctl00_VerticalTabs_l_c" name="c" frameborder="0" class="ui-layout-pane ui-layout-pane-center" style="position: absolute; margin: 0px; inset: 0px 0px 0px 32px; height: 644px; width: 1456px; z-index: 0; display: block; visibility: visible;" src="./saved_resource(1).html">This HTML page contains one or more iframe elements. To view content of these elements, use a web browser that <a href="http://www.browserchoice.eu">supports HTML 4.0 and later</a>.</iframe></span>
+
+    
+    
+    
+    
+
+    
+</div>
+    
+
+<script type="text/javascript">
+	//<![CDATA[
+document.pageLoaded = true;
+//]]>
+</script>
+<script type="text/javascript">
+	//<![CDATA[
+
+cmsrequire(['CMS/EventHub', 'CMS/Application'], function (hub, app) {
+    hub.publish('PageLoaded', app.getData(null, window));
+});
+
+//]]>
+</script>
+<script type="text/javascript">
+	//<![CDATA[
+cmsrequire(['CMS/HeaderShadow'], function(module) { new module(); });
+//]]>
+</script>
+<script type="text/javascript">
+	//<![CDATA[
+cmsrequire(['CMS/Loader'], function(module) { new module({
+  "overlayHtml": "\u003cdiv id=\u0022cms-overlayer\u0022 class=\u0022overlayer overlayer-general\u0022\u003e\u003c/div\u003e",
+  "loaderHtml": "\u003cdiv id=\u0022cms-loader\u0022 class=\u0022loader loader-general\u0022\u003e\u003ci aria-hidden=\u0022true\u0022 class=\u0022icon-spinner spinning cms-icon-100 loader-icon\u0022\u003e\u003c/i\u003e\u003cspan class=\u0022loader-text\u0022\u003eLoading\u003c/span\u003e\u003c/div\u003e"
+}); });
+//]]>
+</script>
+<script type="text/javascript">
+	//<![CDATA[
+cmsrequire(['CMS/VerticalTabs'], function(module) { new module({
+  "id": "m_c_plc_lt_ctl00_VerticalTabs_l",
+  "scrollable": true
+}); });
+//]]>
+</script>
+<script type="text/javascript">
+	//<![CDATA[
+var layout_m_c_plc_lt_ctl00_VerticalTabs_l;
+layout_m_c_plc_lt_ctl00_VerticalTabs_l = $cmsj('body').layout({
+defaults:{
+enableCursorHotkey:false
+}
+,north: {
+paneSelector: '#m_c_plc_lt_ctl00_VerticalTabs_l_paneTitle'
+,size: "auto"
+,spacing_open: 0
+,resizerTip: "Resize"
+,sliderTip: "Slide"
+,initClosed: false
+}
+,west: {
+paneSelector: '#m_c_plc_lt_ctl00_VerticalTabs_l_t'
+,closable: false
+,resizable: false
+,size: 0
+,spacing_open: 0
+,resizerTip: "Resize"
+,sliderTip: "Slide"
+,initClosed: false
+}
+,center: {
+paneSelector: '#m_c_plc_lt_ctl00_VerticalTabs_l_c'
+,onclose_start: $cmsj.layout.callbacks.pseudoClose
+,resizerTip: "Resize"
+,sliderTip: "Slide"
+,initClosed: false
+}
+});
+if (window.layouts == undefined) {
+layouts = new Array();
+}
+layouts[layouts.length] = layout_m_c_plc_lt_ctl00_VerticalTabs_l;
+
+//]]>
+</script>
+<script type="text/javascript">
+	//<![CDATA[
+cmsrequire(['CMS/Loader'], function(module) { new module({
+  "overlayHtml": "\u003cdiv id=\u0022cms-overlayer\u0022 class=\u0022overlayer overlayer-general\u0022\u003e\u003c/div\u003e",
+  "loaderHtml": "\u003cdiv id=\u0022cms-loader\u0022 class=\u0022loader loader-general\u0022\u003e\u003ci aria-hidden=\u0022true\u0022 class=\u0022icon-spinner spinning cms-icon-100 loader-icon\u0022\u003e\u003c/i\u003e\u003cspan class=\u0022loader-text\u0022\u003eLoading\u003c/span\u003e\u003c/div\u003e"
+}); });
+//]]>
+</script>
+<script type="text/javascript">
+	//<![CDATA[
+cmsrequire(['CMS/Loader'], function(module) { new module({
+  "overlayHtml": "\u003cdiv id=\u0022cms-overlayer\u0022 class=\u0022overlayer overlayer-general\u0022\u003e\u003c/div\u003e",
+  "loaderHtml": "\u003cdiv id=\u0022cms-loader\u0022 class=\u0022loader loader-general\u0022\u003e\u003ci aria-hidden=\u0022true\u0022 class=\u0022icon-spinner spinning cms-icon-100 loader-icon\u0022\u003e\u003c/i\u003e\u003cspan class=\u0022loader-text\u0022\u003eLoading\u003c/span\u003e\u003c/div\u003e"
+}); });
+//]]>
+</script>
+<script type="text/javascript">
+	//<![CDATA[
+cmsrequire(['CMS/UITabs'], function(module) { new module("Tabs.redir(\u0027\\/CMSModules\\/MediaLibrary\\/Tools\\/Library_Edit_Files.aspx?objectid=2\u0027, \u0027c\u0027, true);  UIT_Selected(\u0027Files\u0027);"); });
+//]]>
+</script>
+<script type="text/javascript">
+	//<![CDATA[
+
+function SelTab(i, frm, url, text) {
+    if (Tabs.redir(url, frm, true)) {
+        Tabs.selTab(i, 'm_c_plc_lt_ctl00_VerticalTabs_l_t_tabsElem', '', text);
+        
+    }
+}
+
+function UIT_Selected(elementName) {
+    
+}
+
+//]]>
+</script></form><div id="m_c_plc_lt_ctl00_VerticalTabs_l_t-resizer" class="ui-layout-resizer ui-layout-resizer-west ui-layout-resizer-open ui-layout-resizer-west-open" style="position: absolute; padding: 0px; margin: 0px; font-size: 1px; text-align: left; overflow: hidden; z-index: 2; left: 32px; cursor: default; display: none;"></div>
+
+
+<div id="cms-overlayer" class="overlayer overlayer-general" style="left: 208px; top: 0px; display: none; margin-left: 0px;"></div><div id="cms-loader" class="loader loader-general" style="position: fixed; top: 293px; left: 676.5px; margin-left: 0px; display: none;"><i aria-hidden="true" class="icon-spinner spinning cms-icon-100 loader-icon"></i><span class="loader-text">Loading</span></div></body></html>

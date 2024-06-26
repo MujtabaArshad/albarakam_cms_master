@@ -1,0 +1,1 @@
+cmsdefine(["CMS/NavigationBlocker","jQuery"],function(n,t){var i=function(i){var f=this,r=t(i.wrapperSelector),u;this.navigationBlocker=new n;u=r?t(i.checkChangesLinksSelector,r):t(i.checkChangesLinksSelector);u.on("click",function(n){f.onMyProfileClick(n)})};return i.prototype.onMyProfileClick=function(n){this.navigationBlocker.canNavigate()||n.preventDefault()},i})
